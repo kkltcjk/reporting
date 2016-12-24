@@ -1,4 +1,4 @@
-from api.handlers import landing
+from handlers import landing
 
 mappings = [
     (r"/landing-page/filters", landing.FiltersHandler),
